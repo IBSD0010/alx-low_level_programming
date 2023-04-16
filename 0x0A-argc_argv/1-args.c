@@ -8,7 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-(void) argv; /*Ingore argv*/
-printf("%d\n" ,argc - 1);
+(void) argv;/*Ingore argv*/
+printf("%d\n", argc - 1);
 return (0);
 }
