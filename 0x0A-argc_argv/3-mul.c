@@ -14,7 +14,7 @@ n = 0;
 len = 0;
 f = 0;
 digit = 0;
-while (s[!len] != '\0')
+while (s[len] != '\0')
 len++;
 while (i < len && f == 0)
 {
