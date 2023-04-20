@@ -20,7 +20,8 @@ return (a + b);
  * @b: the second number
  * Return: the sum of a and b
  */
-int op_sub(int a, int b);
+int op_sub(int a, int b)
+{
 return (a - b);
 }
 /**
@@ -29,7 +30,7 @@ return (a - b);
 * @b: the second number
 * Return: the product of a and b
 */
-int op_mul(int a, int b);
+int op_mul(int a, int b)
 {
 return (a * b);
 }
