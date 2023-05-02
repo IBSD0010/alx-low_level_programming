@@ -10,7 +10,7 @@ listint_t *slow = head;
 listint_t *fast = head;
 if (!head)
 return (NULL);
-while (slow && fast->next)
+while (slow && fast && fast->next)
 {
 fast = fast->next->next;
 slow = slow->next;
