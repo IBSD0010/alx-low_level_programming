@@ -31,7 +31,7 @@ c = close(fd);
 if (c == -1)
 {
 dprintf(STDERR_FILENO,
-"Erorr: Can't close fd %d\n", fd);
+"Error: Can't close fd %d\n", fd);
 exit(100);
 }
 }
@@ -51,7 +51,7 @@ int from, to, r, w;
 char *buffer;
 if (argc != 3)
 {
-dprintf(STDERR_FILENO, "usage: cp file_from file_to\n");
+dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 exit(97);
 }
 buffer = create_buffer(argv[2]);
